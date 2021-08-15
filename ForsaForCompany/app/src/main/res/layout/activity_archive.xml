@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.ArchiveActivity">
+
+
+    <include
+        android:id="@+id/headerArchive"
+        layout="@layout/header"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_archive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerArchive"
+        android:layout_margin="@dimen/_10sdp"
+        tools:listitem="@layout/item_archive"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+</RelativeLayout>

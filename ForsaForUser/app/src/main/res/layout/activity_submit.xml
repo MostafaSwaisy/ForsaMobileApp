@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.SubmitActivity">
+
+    <include
+        android:id="@+id/header_submit"
+        layout="@layout/header" />
+
+    <TextView
+        android:id="@+id/post_sbumit_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_submit"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/post_submit_tv"
+        android:textColor="@color/MyGray"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_sbumit_tv"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/post_submit_tv"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_13sdp" />
+
+    <View
+        android:id="@+id/view_up"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/post_title"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/post_sbumit_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_up"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/proposal"
+        android:textColor="@color/MyGray"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/proposal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_sbumit_tv2"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:hint="@string/write_proposal"
+        android:inputType="textMultiLine"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/submit_applicant_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/proposal"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:background="@drawable/background_button"
+        android:gravity="center"
+        android:text="@string/submit_Applicant"
+        android:textColor="@color/white" />
+</RelativeLayout>

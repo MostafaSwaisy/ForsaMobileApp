@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/backgroundColor"
+    app:cardCornerRadius="@dimen/_15sdp"
+    android:layout_margin="@dimen/_3sdp"
+    android:padding="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/header_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp">
+
+        <com.elyeproj.loaderviewlibrary.LoaderTextView
+            android:id="@+id/archive_company_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+             />
+
+        <com.elyeproj.loaderviewlibrary.LoaderTextView
+            android:id="@+id/archive_post_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/gray"
+             />
+    </LinearLayout>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/archive_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_item"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_bold"
+        android:maxLength="250"
+        android:maxLines="5"
+
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/archive_post_title"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/archive_post_tag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/layout_tag"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:maxLength="250"
+        android:maxLines="5"
+        android:text="Your Proposal:"
+        android:textColor="@color/black" />
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/archive_postText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_regular"
+        android:maxLength="250"
+        android:maxLines="5"
+
+        android:textColor="@color/black" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/archive_post_state"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/archive_postText"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/background_wating"
+        android:gravity="center"
+        android:text="@string/waiting_state"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

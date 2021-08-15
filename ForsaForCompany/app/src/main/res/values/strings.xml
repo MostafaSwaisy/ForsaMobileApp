@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Forsa App</string>
+    <bool name="is_ar">false</bool>
+    <!-- Icon App -->
+    <string name="ic_clock" translatable="false">󰥔</string>
+    <string name="ic_ads" translatable="false">󰃦</string>
+    <string name="ic_login" translatable="false">󰍂</string>
+    <string name="ic_profile" translatable="false">󰀉</string>
+    <string name="ic_archive" translatable="false">󰅍</string>
+    <string name="ic_facebook" translatable="false">󰈌</string>
+    <string name="ic_twitter" translatable="false">󰕄</string>
+    <string name="ic_linkedin" translatable="false">󰌻</string>
+    <string name="ic_back" translatable="false">󰁎</string>
+    <string name="ic_regstrion" translatable="false">󰀐</string>
+    <string name="ic_about_us" translatable="false">󰋼</string>
+    <string name="ic_contact_us" translatable="false">󰏶</string>
+    <string name="ic_visit_website" translatable="false">󰑚</string>
+    <string name="ic_logout" translatable="false">󰍃</string>
+    <string name="ic_home" translatable="false">󰋜</string>
+    <string name="ic_download" translatable="false">󰁇</string>
+    <string name="ic_user" translatable="false">󰀎</string>
+    <string name="ic_company" translatable="false"> 󰁰</string>
+    <string name="ic_exit" translatable="false">󰖭</string>
+    <!-- Start Activity -->
+    <string name="welcomeApp" translatable="false">Welcome to</string>
+    <string name="company" translatable="false">Company`s</string>
+    <string name="user" translatable="false">User</string>
+    <string name="downlaod" translatable="false">Downlaod</string>
+    <string name="announcement" translatable="false">Announcement</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="regstrion" translatable="false">Regstrion</string>
+    <string name="about_app" translatable="false">About APP</string>
+    <string name="about_us" translatable="false">About us</string>
+    <string name="contact_us" translatable="false">Contact US</string>
+    <string name="visit_website" translatable="false">Visit our website</string>
+
+    <!-- Login Activity -->
+    <string name="user_name" translatable="false">User Name</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="donot_have_account" translatable="false">Don`t have account?</string>
+    <string name="create_account" translatable="false">Create Account</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="archive" translatable="false">Archive</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="show_applicants" translatable="false">Show Applicants</string>
+    <string name="contact_data" translatable="false">Contact data</string>
+    <string name="business_link" translatable="false">Business link 󰌹</string>
+    <string name="company_link" translatable="false">Company link</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="mobile_number" translatable="false">Mobile Number</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="stop_applicants">Stop Applicants</string>
+    <!-- User profile -->
+    <string name="Specialization" translatable="false">Specialization</string>
+    <string name="Degree" translatable="false">Degree</string>
+    <string name="personal_data" translatable="false">Personal Data</string>
+    <string name="university" translatable="false">University </string>
+    <string name="case_study" translatable="false">Case Study</string>
+    <string name="avg" translatable="false">AVG Study </string>
+    <string name="dob" translatable="false">DOB</string>
+    <string name="profile_link" translatable="false">profile link 󰌹</string>
+    <string name="personal_contact" translatable="false">Personal Contact</string>
+
+    <string name="logout">LogOut</string>
+
+    <string name="create_post">󰐕 Creat Post</string>
+    <string name="title">title</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="skills">Skills</string>
+    <string name="description">Description</string>
+    <string name="post">Post</string>
+    <string name="more_details">More Details</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="accepted_applicants">Accept</string>
+    <string name="canceled_applicants">Cancel</string>
+    <string name="status_applicants">Status Applicant</string>
+    <string name="error_email">*Error in Email or Password</string>
+    <string name="error_msg">Please contact the developers</string>
+    <string name="are_you_sure">Are You Sure??</string>
+    <string name="request_chang_status_dialog">You want to rejected this user</string>
+    <string name="canceled">Canceled</string>
+    <string name="delete_post_text">You want delete this post</string>
+    <string name="stop_applicants_text">You want stop applicants to this post</string>
+    <string name="is_active">You not active plase conntect us</string>
+<string name="duedate">click to Enter the Due Date</string>
+    <string name="addskills">click to choose post skills</string>
+
+    <!--this comment for test push on mostafa branch-->
+</resources>

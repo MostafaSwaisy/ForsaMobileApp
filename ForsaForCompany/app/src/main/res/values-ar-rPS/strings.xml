@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق فرصة</string>
+    <bool name="is_ar">true</bool>
+    <!-- Start Activity -->
+    <string name="welcomeApp" translatable="false">مرحبا بك في</string>
+    <string name="company" translatable="false">الشركات</string>
+    <string name="user" translatable="false">المتسخدمين</string>
+    <string name="downlaod" translatable="false">التحميل</string>
+    <string name="announcement" translatable="false">الإعلانات</string>
+    <string name="login" translatable="false">تسجيل الدخول</string>
+    <string name="regstrion" translatable="false">حساب جديد</string>
+    <string name="about_app" translatable="false">عن التطبيق</string>
+    <string name="about_us" translatable="false">عنا</string>
+    <string name="contact_us" translatable="false">أتصل بنا</string>
+    <string name="visit_website" translatable="false">زر موقعنا</string>
+
+    <!-- Login Activity -->
+    <string name="user_name" translatable="false">اسم المستخدم</string>
+    <string name="password" translatable="false">كلمة المرور</string>
+    <string name="donot_have_account" translatable="false">لا تمتلك حساب؟</string>
+    <string name="create_account" translatable="false">إنشاء حساب</string>
+    <string name="home">الرئيسية</string>
+    <string name="archive">أرشيف</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="show_applicants">طلبات التقديم</string>
+    <string name="contact_data">بيانات الاتصال</string>
+    <string name="business_link">رابط الاعمال</string>
+    <string name="company_link">رابط الشركة</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="mobile_number">رقم الجوال</string>
+    <string name="address">العنوان</string>
+    <string name="stop_applicants">ايقاف االتقديم</string>
+    <!--user profile-->
+    <string name="Specialization" translatable="false">التخصص</string>
+    <string name="Degree" translatable="false">الدرجة العلمية</string>
+    <string name="personal_data" translatable="false">البيانات الشخصية</string>
+    <string name="university" translatable="false">الجامعة </string>
+    <string name="case_study" translatable="false">الحالة الدراسية</string>
+    <string name="avg" translatable="false">المعدل الدراسي </string>
+    <string name="dob" translatable="false">تاريخ الميلاد</string>
+    <string name="profile_link" translatable="false">رابط الأعمال 󰌹</string>
+    <string name="personal_contact" translatable="false">بيانات التواصل</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="create_post">󰐕إنشاء إعلان</string>
+    <string name="title">العنوان الرئيسي</string>
+    <string name="expire_date">تاريخ الانتهاء</string>
+    <string name="skills">المهارات المطلوبة</string>
+    <string name="description">الوصف</string>
+    <string name="post">نشر</string>
+    <string name="more_details">تفاصيل أكثر</string>
+    <string name="delete_post">حذف المنشور</string>
+    <string name="accepted_applicants">قبول الطلب</string>
+    <string name="canceled_applicants">رفض الطلب</string>
+    <string name="status_applicants">حالة الطلب</string>
+    <string name="error_email">*خطأ في الايميل أو كلمة المرور</string>
+    <string name="error_msg">الرجاء التواصل مع المطورين بسبب وجود مشكلة تقنية</string>
+    <string name="are_you_sure">هل أنت متأكد؟</string>
+    <string name="request_chang_status_dialog">تريد رفض طلب التدريب</string>
+    <string name="canceled">الغاء</string>
+    <string name="delete_post_text">تريد حذف المنشور</string>
+    <string name="stop_applicants_text">تريد ايقاف التقدم الي هذا المنشور</string>
+    <string name="is_active">انت غير مفعل الرجاء التواصل مع الدعم</string>
+    <string name="duedate">ادخل تاريخ الانتهاء</string>
+    <string name="addskills">ادخل المهارات المطلوبة</string>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:layout_marginEnd="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:id="@+id/isClick"
+    android:background="@color/backgroundColor">
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/nameTag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:padding="@dimen/_5sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_18sdp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/iconIsClick"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/material_icon"
+        android:layout_weight="0.3"
+        android:textSize="@dimen/_26sdp"
+        android:textColor="@color/mainColor"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/_3sdp"
+        />
+</LinearLayout>

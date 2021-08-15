@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Forsa User</string>
+    <!-- Icon App -->
+    <string name="ic_clock" translatable="false">󰥔</string>
+    <string name="ic_ads" translatable="false">󰃦</string>
+    <string name="ic_login" translatable="false">󰍂</string>
+    <string name="ic_profile" translatable="false">󰀉</string>
+    <string name="ic_archive" translatable="false">󰅍</string>
+    <string name="ic_facebook" translatable="false">󰈌</string>
+    <string name="ic_twitter" translatable="false">󰕄</string>
+    <string name="ic_linkedin" translatable="false">󰌻</string>
+    <string name="ic_back" translatable="false">󰁎</string>
+    <string name="ic_regstrion" translatable="false">󰀐</string>
+    <string name="ic_about_us" translatable="false">󰋼</string>
+    <string name="ic_contact_us" translatable="false">󰏶</string>
+    <string name="ic_visit_website" translatable="false">󰑚</string>
+    <string name="ic_logout" translatable="false">󰍃</string>
+    <string name="ic_home" translatable="false">󰋜</string>
+    <string name="ic_download" translatable="false" >󰁇</string>
+    <string name="ic_user" translatable="false" >󰀎</string>
+    <string name="ic_company" translatable="false" > 󰁰</string>
+    <!-- Start Activity -->
+    <string name="welcomeApp" translatable="false">Welcome to</string>
+    <string name="company" translatable="false">Company`s</string>
+    <string name="user" translatable="false">User</string>
+    <string name="downlaod" translatable="false">Downlaod</string>
+    <string name="announcement" translatable="false">Announcement</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="registration" translatable="false">Registration</string>
+    <string name="about_app" translatable="false">About APP</string>
+    <string name="about_us" translatable="false">About us</string>
+    <string name="contact_us" translatable="false">Contact US</string>
+    <string name="visit_website" translatable="false">Visit our website</string>
+
+    <!-- Login Activity -->
+    <string name="user_name" translatable="false">User Name</string>
+    <string name="user_email" translatable="false">User Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="donot_have_account" translatable="false">Don`t have account?</string>
+    <string name="create_account" translatable="false">Create Account</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="archive" translatable="false">Archive</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="show_applicants" translatable="false">Show Applicants</string>
+    <string name="contact_data" translatable="false">Contact data</string>
+    <string name="business_link" translatable="false">Business link 󰌹</string>
+    <string name="company_link" translatable="false">Company link</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="mobile_number" translatable="false">Mobile Number</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="stop_applicants" translatable="false">Stop Applicants</string>
+    <string name="password_message" translatable="false">The two passwords do not match</string>
+    <!-- User profile -->
+    <string name="Specialization" translatable="false">Specialization</string>
+    <string name="Degree" translatable="false">Degree</string>
+    <string name="personal_data" translatable="false">Personal Data</string>
+    <string name="university" translatable="false">University </string>
+    <string name="case_study" translatable="false">Case Study</string>
+    <string name="avg" translatable="false">AVG Study </string>
+    <string name="dob" translatable="false">DOB</string>
+    <string name="profile_link" translatable="false">profile link 󰌹</string>
+    <string name="personal_contact" translatable="false">Personal Contact</string>
+
+    <string name="logout" translatable="false">LogOut</string>
+
+    <string name="create_post" translatable="false">󰐕 Creat Post</string>
+    <string name="submit_requset" translatable="false">Submit Request</string>
+    <string name="submit_Applicant" translatable="false">Submit Applicant</string>
+    <string name="accept_state" translatable="false">Accepted</string>
+    <string name="waiting_state" translatable="false">Waiting</string>
+    <string name="reject_state" translatable="false">Rejected</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="post_submit_tv" translatable="false">The post Title</string>
+    <string name="proposal" translatable="false">your Proposal</string>
+    <string name="write_proposal" translatable="false">why we should hire you?</string>
+    <string name="success" translatable="false">your proposal submitted</string>
+    <string name="update_profile" translatable="false">Update profile</string>
+    <string name="skills" translatable="false">Skills</string>
+    <string name="thankyou" translatable="false"> thanks for update Mr.</string>
+    <!--this comment for test push on mostafa branch-->
+    <string name="post" translatable="false">Post</string>
+    <string name="error_msg" translatable="false">Please contact the developers</string>
+    <string name="submit_before">You Submitted to this post before</string>
+    <string name="applicant_done">submited</string>
+</resources>
